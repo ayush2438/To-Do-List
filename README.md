@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# ✅ To-Do List App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and modern **To-Do List App** built with **Expo (React Native)** and powered by **Convex backend**.  
+Manage your tasks effortlessly — add, update, toggle, and delete todos with a clean interface.
 
-## Get started
+---
+<img width="1280" height="800" alt="SS-1" src="https://github.com/user-attachments/assets/ba1ed79a-4449-443a-9934-8638620d82b1" />
+<img width="1280" height="800" alt="Screenshot 2025-09-03 at 8 35 52 AM" src="https://github.com/user-attachments/assets/e0ab20ce-994d-49cc-b6c1-9513b2224f91" />
+<img width="1279" height="758" alt="Screenshot 2025-09-03 at 8 36 44 AM" src="https://github.com/user-attachments/assets/bf33e8c2-1ba8-43d9-98d6-3eef866b8857" />
 
-1. Install dependencies
+## 🚀 Features
+- 📌 Add new tasks  
+- ✏️ Edit tasks  
+- ✅ Mark tasks as complete/incomplete  
+- 🗑️ Delete individual tasks  
+- 🔄 Clear all tasks at once  
+- 📡 Backend powered by [Convex](https://convex.dev)  
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+## 🛠️ Tech Stack
+- **Frontend:** [Expo (React Native)](https://expo.dev)  
+- **Backend:** [Convex](https://convex.dev)  
+- **Database:** Convex built-in DB  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+## ⚙️ Installation
 ```bash
-npm run reset-project
-```
+# Clone the repo
+git clone https://github.com/ayush2438/To-Do-List.git
+cd To-Do-List
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+🧑‍💻 Project Structure
+# Install dependencies
+npm install
 
-## Learn more
+# Run the app
+npx expo start
 
-To learn more about developing your project with Expo, look at the following resources:
+To-Do-List/
+│── app/              # Expo app screens & components
+│── convex/           # Convex backend functions (queries & mutations)
+│── package.json      # Dependencies & scripts
+│── README.md         # Project documentation
+🌟 Future Improvements
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+🔔 Notifications for tasks
 
-## Join the community
+🌓 Dark mode support
 
-Join our community of developers creating universal apps.
+☁️ Sync across devices
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🗂️ Categories for todos
+
+🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repo, submit issues, and create pull requests.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+👨‍💻 Author
+
+Made with ❤️ by Ayush Tomar
